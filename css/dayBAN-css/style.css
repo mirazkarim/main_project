@@ -1,0 +1,630 @@
+/* ==============================================> কমন অংশ শুরু  <============================================== */
+* {
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  vertical-align: middle;
+}
+
+li {
+  list-style: none;
+}
+/* ==============================================> কমন অংশ শেষ <============================================== */
+/* ==============================================> header start<============================================== */
+header{
+  background: url(../assets/Banner/banner-b2g.png)no-repeat center;
+  background-size: cover;
+} 
+
+
+/* ==============================================> header  end<============================================== */
+
+/* ==============================================> day night button  end<============================================== */
+/* day night button */  
+.switch {
+  margin-left: 50px;
+  right: 5%;
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #198754;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  left: 2px;
+  bottom: 2px;
+  z-index: 2;
+  background-color: #e8e8e8;
+  transition: .4s;
+}
+
+.sun svg {
+  position: absolute;
+  top: 6px;
+  left: 36px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+}
+
+.moon svg {
+  fill: #DC3545;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+}
+
+/* .switch:hover */.sun svg {
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+ 
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* .switch:hover */.moon svg {
+  animation: tilt 5s linear infinite;
+}
+
+@keyframes tilt {
+ 
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.input:checked + .slider {
+  background-color: #183153;
+}
+
+.input:focus + .slider {
+  box-shadow: 0 0 1px #183153;
+}
+
+.input:checked + .slider:before {
+  transform: translateX(30px);
+}
+
+/* ==============================================> /* day night button end<============================================== */
+
+
+/* ==============================================> /*  /* language btn start<============================================== */
+
+ .btn-ln{
+  top: 0;
+}
+.swt {
+  display: flex;
+  justify-content: center;
+}
+.swt__wrapper {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  background: #f9f9f9;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 28px;
+  margin: 0px 1em 0px 0px;
+}
+.swt__wrapper input {
+  display: none;
+}
+.swt__wrapper input:checked + .switch__slider:before {
+  transform: translateX(60px);
+}
+.swt div::before {
+  content: "EN";
+  position: relative;
+  z-index: 5;
+  font-weight: 700;
+  font-size: 15px;
+  color: #919191;
+  bottom: -1px;
+  left: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease 0s;
+}
+.swt div::after {
+  content: "বাং";
+  position: relative;
+  z-index: 5;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  bottom: -1px;
+  left: 30px;
+  cursor: pointer;
+  transition: color 0.3s ease 0s;
+}
+.swt__slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+.swt__slider::before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 30px;
+  left: 39px;
+  bottom: -1px;
+  background-color: #198754;
+  transition: all 0.4s ease 0s;
+  border-radius: 28px;
+}
+
+
+/* ==============================================> /* language btn end<============================================== */
+
+
+ /* ================================> nav section start <================================ */
+.navbar {
+  background-color: #4dcbc5;
+}
+#nav .service ul li a{
+  font-family: 'Oswald', sans-serif;
+  transition:all linear 0.4s;
+}
+#nav .service ul li a:hover{
+  color: #DC3545;
+}
+#nav .download{
+  font-family: 'Oswald', sans-serif;
+  transition:all linear 0.4s;
+  border: none;
+}
+#nav .download:hover{
+  background: #DC3545;
+}
+ /* ================================> nav section End <================================ */
+
+
+ /* ================================> hero section start <================================ */
+#hero{
+  height: 950px;
+  /* height: 100vh; */
+  /* max-height: 100vh; */
+}
+
+#hero .bt .butt_1{
+  font-family: 'Oswald', sans-serif;
+  /* font-size: 15px; */
+  /* font-weight: 500; */
+  border: none;
+  /* padding: 15px 25px; */
+  transition: all linear 0,4s;
+}
+#hero .bt .butt_1:hover{
+  background: #01B080;
+}
+#hero .bt .butt_2{
+  font-family: 'Oswald', sans-serif;
+  /* font-size: 15px;
+  font-weight: 500;
+  padding: 15px 25px; */
+  transition: all linear 0,4s;
+  border: none;
+}
+#hero .bt .butt_2:hover{
+  background: #01B080;
+}
+ /* ================================> hero section End <================================ */
+
+ /* ================================> service section End <================================ */
+
+ #skill {
+  transition: all ease 0.4s;
+  background: #D5EBE8;
+  width: 100%;
+  height: 1000px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+#skill .title {
+  padding-bottom: 70px;
+}
+#skill .title h1{
+  color: #01B080;
+}
+#skill .main {
+  display: flex;
+  gap: 40px;
+}
+#skill .main .item {
+  margin-top: 20px;
+  width: 213px;
+  height: 365px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: all ease 0.4s;
+}
+#skill .main .item2 {
+  margin-top: 168px;
+}
+
+/* card */
+.myCard {
+  background-color: transparent;
+  width: 213px;
+  height: 438px;
+  perspective: 1000px;
+}
+.myCard .icon{
+  border: 1px solid #01B080;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background: #F3E9FD;
+  transition: all ease 0.4s;
+}
+.myCard .icon i{
+  font-size: 40px;
+  color: #000;
+  transition: all ease 0.4s;
+}
+.title {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.innerCard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.myCard:hover .innerCard {
+  transform: rotateY(180deg);
+}
+
+.frontSide,
+.backSide {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+  color: white;
+
+  font-weight: 700;
+}
+#skill .myCard .innerCard .frontSide img{
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+#skill .myCard .innerCard .backSide{
+  background: #01B080;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#skill .myCard .innerCard .backSide h5 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Gabarito", sans-serif;
+  transition: all ease 0.4s;
+}
+#skill .myCard .innerCard .backSide p {
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Gabarito", sans-serif;
+}
+
+.backSide {
+  transform: rotateY(180deg);
+}
+  
+.frontSide::before,
+.backSide::before {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   content: ''; 
+  width: 110%;
+  height: 110%; 
+  position: absolute; 
+  z-index: -1;
+  border-radius: 1em;
+  filter: blur(20px);
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0.3;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
+}
+
+/* ================================> service section End <================================
+
+
+/* /* ================================> device section End <================================ */
+#device{
+  background: #D5EBE8;
+}
+#device .card{
+  background: #D5EBE8;
+}
+/* ================================> device section End <================================ */
+
+
+/* ================================> highlight section End <================================ */
+#highlight{
+  background: #01B080;
+}
+/* ================================> highlight section End <================================ */
+/* ================================> highlight section End <================================ */
+#feature{
+  background: #4DCCC6;
+  padding-bottom: 100px;
+  height: 100%;
+}
+/* Waves Animation start*/
+
+.hero_area {
+position: relative;
+top: -175px;
+/* height: 100vh; */
+/* background-color: black; */
+}
+
+.waves {
+position: absolute;
+width: 100%;
+height: 10vh;
+/* min-height: 100px; */
+/* max-height: 150px; */
+bottom: -275px;
+left: 0;
+}
+
+.parallax>use {
+animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+animation-delay: -2s;
+animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+animation-delay: -3s;
+animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+animation-delay: -4s;
+animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+animation-delay: -5s;
+animation-duration: 20s;
+}
+
+@keyframes move-forever {
+0% {
+    transform: translate3d(-90px, 0, 0);
+}
+
+100% {
+    transform: translate3d(85px, 0, 0);
+}
+}
+
+
+/*Shrinking for mobile*/
+
+@media (max-width: 768px) {
+.waves {
+    height: 40px;
+    min-height: 40px;
+}
+}
+
+/* Waves Animation end*/
+/* ================================> highlight section End <================================ */
+
+
+/* ================================> count section start <================================ */
+#count {
+  background: #EEF9F7;
+  color: #01B080;
+}
+#contect .main .form #in1 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  width: 320px;
+  border: none;
+  padding: 10px 20px;
+  background: #EEF9F7;
+}
+#contect .main .form #in2 {
+  margin-bottom: 40px;
+  width: 320px;
+  border: none;
+  padding: 10px 20px;
+  background: #EEF9F7;
+}
+#contect .main .form #t1 {
+  border: none;
+  padding: 10px 20px;
+  resize: none;
+  height: 150px;
+  background: #EEF9F7;
+  width: 320px;
+}
+/* ================================> count section End <================================ */
+
+/* ================================> footer section End <================================ */
+.footer-section {
+  background: #4DCCC6;
+}
+.footer-section .image{
+  position: relative;
+  top: -30px;
+}
+.footer-section .image img{
+  width: 130px;
+  position: absolute;
+  z-index: 9;
+  left: 60px;
+  top: -15px;
+  animation-name:miraz ;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes miraz {
+  0%{
+    top: 1px;
+  }
+  50%{
+    top: 30px;
+  }
+  100%{
+    top: 1px;
+  }
+}
+.footer-section .image .panel{
+  position: absolute;
+  z-index: 8;
+  width: 200px;
+  top: 25px;
+}
+.pulse-base {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border: 15px solid #7ECDC7;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.pulse-circle {
+  background: green;
+}
+
+.pulse-base:before {
+  content: '';
+  border: 15px solid #E8FAF8;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: -15px;
+  bottom: -15px;
+  animation: pulsate 1.6s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  z-index: 99;
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+/* ================================> footer section End <================================ */
+
+
+/* ================================> footer section start <================================ */
+.copyright-area{
+  background: #01B080;
+}
+/* ================================> footer section End <================================ */

@@ -1,0 +1,999 @@
+
+@media (min-width: 320px) and (max-width: 375.98px){
+    /* nav start */
+    #nav .item li{
+        text-align: center;
+    }
+    #nav .item {
+        gap: 2rem !important;
+    }
+    #nav .btn{
+         margin-left: 125px; 
+         margin-top: 15px;
+         margin-bottom: 10px;
+    }
+    .swt__wrapper{
+       margin-left: 20px;
+       margin-bottom: 10px;
+       margin-top: 20px;
+    }
+    #d_n{
+        margin-left: 165px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    /* nav end */
+
+    /* hero start */
+    #hero .row .text h1,#hero .row .text h3,#hero .row .text p{
+        text-align: center;
+    }
+    #hero .row .text h1{
+        margin-top: 10px;
+        font-size: 28px;
+    }
+    #hero .row .text h3{
+        font-size: 18px;
+    }
+    #hero .row .text p{
+        font-size: 13px;
+    }
+
+    #hero .row .butt_1 span{
+        font-size: 13px;
+        margin-left: 2px;
+    }
+    #hero .row .butt_2 span{
+        font-size: 13px;
+        margin-left: 2px;
+    }
+    /* hero end */
+    
+    /* highlight start */
+    #highlight h1{
+        font-size: 27px;
+    }
+    /* highlight end */
+
+    /* about start */
+    #about .title h1{
+        font-size: 28px;
+    }
+   
+
+    /* about end */
+    /* count start */
+    #count .row .item{
+        margin:20px 0;
+    }
+    /* count end */
+    /* ico start */
+    #ico .title h1{
+        font-size: 27px;
+    }
+    #ico .title p{
+        font-size: 14px;
+    }
+    /* ico end */
+    /* contact start */
+    #contect .title h1{
+        font-size: 24px;
+    }
+    #contect .title p{
+        font-size: 16px;
+        margin-bottom: -20px;
+    }
+    #contect .row .image{
+        display: none;
+    }
+    #contect .row .form input{
+        width: 100%;
+    }
+    #contect .row .form textarea{
+        width: 80%;
+        height: 100px;
+        resize: none;
+    }
+    /* contact end */
+
+    /* footer start */
+    .footer-section .row .footer-logo a img{
+        height: 60px;
+        width: 70px;
+    }
+    
+    .footer-section .row .footer-logo  h1{
+        font-size: 22px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    .footer-section .row .footer-text p{
+        font-size: 15px;
+    }
+    .footer-section .row .footer-widget-heading h3{
+        text-align: center;
+    }
+    .footer-section .image{
+        display: none;
+      }
+    /* footer end */
+
+    /* copyrt start */
+    #copy_rt .copyright-text p{
+        margin-top: 10px;
+    }
+    /* copyrt end */
+ /* device start */
+ #device{
+    display: block;
+    padding-top: 10%;
+}
+#device .row .card {
+    /* margin-left: 30px; */
+    margin: auto;
+}
+#device .title p{
+    font-size: 15px;
+    font-weight: 500;
+}
+#device .title h1{
+    font-size: 40px;
+ }
+
+
+/* device end */
+
+     /* skill start */
+     #skill{
+        display: none;
+     }
+    /* skill end */
+
+
+    
+    
+}
+@media (min-width: 376px) and (max-width: 411.98px){
+ /* nav start */
+ #nav .item li{
+    text-align: center;
+}
+#nav .item {
+    gap: 2rem !important;
+}
+#nav .btn{
+     margin-left: 120px; 
+     margin-top: 15px;
+     margin-bottom: 10px;
+}
+.swt__wrapper{
+   margin-left: 15px;
+   margin-bottom: 10px;
+   margin-top: 20px;
+}
+#d_n{
+    margin-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+/* nav end */
+ /* highlight start */
+ #highlight h1{
+    font-size: 28px;
+   
+}
+/* highlight end */
+/* ico start */
+#ico .title h1{
+    font-size: 30px;
+}
+#ico .title p{
+    font-size: 12px;
+}
+/* ico end */
+/* contect start */
+#contect .title h1{
+    font-size: 30px;
+}
+#contect .title p{
+    font-size: 12px;
+}
+/* contect end */
+/* footer start */
+.footer-section{
+    margin-top: 30px;
+}
+
+.footer-section .image{
+display: none;
+}
+
+/* footer end */
+/* device start */
+#device{
+    display: block;
+    padding-top: 10%;
+}
+#device .title h1{
+    font-size: 40px;
+}
+#device .title p{
+    font-size: 15px;
+}
+#device .card{
+    margin-left: 50px;
+}
+/* device end */ 
+/* skill start */
+#skill{
+    display: none;
+}
+/* skill end */
+}
+
+@media (min-width: 412px) and (max-width: 414px){
+      /* nav start */
+      #nav .item li{
+        text-align: center;
+    }
+    #nav .item {
+        gap: 2rem !important;
+    }
+    #nav .btn{
+         margin-left: 140px; 
+         margin-top: 15px;
+         margin-bottom: 10px;
+    }
+    .swt__wrapper{
+       margin-left: 15px;
+       margin-bottom: 10px;
+       margin-top: 20px;
+    }
+    #d_n{
+        margin-left: 180px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    /* nav end */
+     /* highlight start */
+     #highlight h1{
+        font-size: 28px;
+       
+    }
+    /* highlight end */
+    /* ico start */
+    #ico .title h1{
+        font-size: 30px;
+    }
+    #ico .title p{
+        font-size: 12px;
+    }
+    /* ico end */
+    /* contect start */
+    #contect .title h1{
+        font-size: 30px;
+    }
+    #contect .title p{
+        font-size: 12px;
+    }
+    /* contect end */
+    /* footer start */
+
+ .footer-section .image{
+    display: none;
+  }
+
+    /* footer end */
+    /* device start */
+    #device{
+        display: block;
+        padding-top: 10%;
+    }
+    #device .title h1{
+        font-size: 40px;
+    }
+    #device .title p{
+        font-size: 15px;
+    }
+    /* device end */
+}
+@media (min-width: 415px) and (max-width: 521.98px){
+    
+    #hero .row .text h1,#hero .row .text h3,#hero .row .text p{
+        text-align: center;
+    }
+   
+    #hero .row .button .butt_2 {
+        margin-left: 20px;
+    }
+    /* highlight start */
+    #HighLight h1{
+        font-size: 26px;
+    }
+    /* highlight start */
+    
+    /* about start */
+    #about .title h1{
+        font-size: 22px;
+    }
+    #about .row .text h1{
+        font-size: 21px;
+    }
+    #about .row .text p{
+        font-size: 16px;
+    }
+
+    /* about end */
+    /* count start */
+    #count .row .item{
+        margin:30px 0;
+    }
+    /* count end */
+     /* ico start */
+     #ico h1{
+        font-size: 22px;
+    }
+    #ico p{
+        font-size: 14px;
+    }
+    /* ico end */
+
+      /* contact start */
+      #contect h1{
+        font-size: 22px;
+    }
+    #contect p{
+        font-size: 14px;
+        margin-bottom: -20px;
+    }
+    #contect .row .image{
+        display: none;
+    }
+    #contect .row .form input{
+        width: 100%;
+    }
+    #contect .row .form textarea{
+        width: 100%;
+        height: 100px;
+        resize: none;
+    }
+    /* contact end */
+        /* footer start */
+        .footer-section .row .footer-logo a img{
+            height: 60px;
+            width: 70px;
+        }
+        
+        .footer-section .row .footer-logo  h1{
+            font-size: 22px;
+            margin-top: 5px;
+            font-weight: 700;
+        }
+        .footer-section .row .footer-text p{
+            font-size: 15px;
+        }
+        .footer-section .row .footer-widget-heading h3{
+            text-align: center;
+        }
+        .footer-section .image{
+            display: none;
+          }
+        /* footer end */
+         /* copyrt start */
+    #copy_rt .copyright-text p{
+        margin-top: 20px;
+    }
+    /* copyrt end */
+     /* device start */
+     #device{
+        display: block;
+        padding-top: 15%;
+    }
+    #device .row .card {
+        /* margin-left: 110px; */
+        margin: auto;
+    }
+    #device .title p{
+        font-size: 20px;
+        font-weight: normal;
+    }
+    /* device end */
+    
+     /* skill start */
+     #skill{
+        display: none;
+     }
+    /* skill end */
+}
+
+@media (min-width: 522px) and (max-width: 575.98px) {
+    /* nav start */
+    #nav .item li{
+        text-align: center;
+    }
+    #nav .btn{
+         margin-left: 200px; 
+         margin-top: 10px;
+    }
+    /* nav end */
+
+    /* hero start */
+    #hero .row .text h1,#hero .row .text h3,#hero .row .text p{
+        text-align: center;
+    }
+    #hero .row .button .butt_1 { 
+        margin-left: 40px;
+    }
+    #hero .row .button .butt_2 {
+        margin-left: 120px;
+    }
+    /* hero end */
+     /* device start */
+     #device{
+        display: block;
+        padding-top: 15%;
+    }
+    #device .title h1, #device .title p{
+        text-align: center;
+    }
+    #device .row .card {
+        /* margin-left: 130px; */
+        margin: auto;
+    }
+  
+    /* device end */
+    
+     /* skill start */
+     #skill{
+        display: none;
+     }
+     
+    /* skill end */
+    /* footer start */
+    .footer-section .image{
+        display: none;
+      }
+    /* footer end */
+}
+@media (min-width: 576px) and (max-width: 684px){
+    /* nav start */
+    #nav .item li{
+        text-align: center;
+        margin-top: -19px;
+    }
+    #nav .item {
+        gap: 0.1rem !important;
+    }
+    #nav .btn{
+         margin-left: 210px; 
+         /* margin-top: 15px; */
+         margin-bottom: 10px;
+    }
+    .swt__wrapper{
+       margin-left: 20px;
+       margin-bottom: 10px;
+       /* margin-top: 20px; */
+    }
+    #d_n{
+        margin-left: 250px;
+        /* margin-top: 20px; */
+        margin-bottom: 60px;
+    }
+    /* nav end */
+     /* about start */
+     #about h1{
+        font-size: 40px;
+    }
+    /* about end */
+    /* highlight start */
+    #highlight h1{
+        font-size: 37px;
+    }
+    /* highlight end */
+    /* footer start */
+    .footer-section .row .footer-logo a img{
+        height: 60px;
+        width: 70px;
+    }
+    
+    .footer-section .row .footer-logo  h1{
+        font-size: 28px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+
+    .footer-section .image{
+        display: none;
+    }
+    /* footer end */
+      /* skill start */
+      #skill{
+        display: none;
+     }
+    
+    /* skill end */
+     /* ico start */
+     #ico .title h1{
+        font-size: 40px;
+    }
+    #ico .title p{
+        font-size: 18px;
+    }
+    /* ico end */
+    
+       /* contect start */
+       #contect .title h1{
+        font-size: 40px;
+    }
+    #contect .title p{
+        font-size: 20px;
+    }
+    /* contect end */
+
+    /* device start */
+    #device{
+        display: block;
+        padding-top: 30%;
+    }
+    #device .title h1{
+        font-size: 40px;
+     }
+     #device .title p{
+        font-size: 18px;
+     }
+    /* device end */
+}
+
+@media (min-width: 684px) and (max-width: 736.98px){
+   /* nav start */
+   #nav .item li{
+    text-align: center;
+    margin-top: -13px;
+}
+#nav .item {
+    gap: 0.1rem !important;
+}
+#nav .btn{
+     margin-left: 210px !important; 
+}
+.swt__wrapper{
+   margin-left: 20px;
+   margin-top: 6px !important;
+}
+#d_n{
+    margin-left: 250px;
+    margin-top: 9px !important;
+}
+/* nav end */
+      /* highlight start */
+      #highlight h1{
+        font-size: 35px;
+    }
+    /* highlight end */
+
+    /* about start */
+       #about .title h1{
+        font-size: 40px;
+    }
+    /* about end */
+    /* device start */
+    #device .title h1{
+        font-size: 40px;
+    }
+    /* device end */
+    
+    
+     /* skill start */
+     #skill{
+        display: none;
+     }
+     #skill .title h1{
+        font-size: 40px;
+     }
+     #skill .title p{
+        font-size: 18px;
+     }
+    /* skill end */
+
+    /* ico start */
+    #ico .title h1{
+        font-size: 40px;
+    }
+    #ico .title p{
+        font-size: 18px;
+    }
+    /* ico end */
+
+    /* contect start */
+    #contect .title h1{
+        font-size: 40px;
+    }
+    #contect .title p{
+        font-size: 20px;
+    }
+    /* contect end */
+
+    /* footer start */
+    .footer-section .image{
+        display: none;
+      }
+    /* footer end */
+
+        /* device start */
+        #device{
+            display: block;
+            padding-top: 30%;
+        }
+        /* device end */
+        
+}
+
+@media (min-width: 737px) and (max-width: 767.98px) {
+    /* nav start */
+    #nav .item li{
+        text-align: center;
+    }
+    #nav .btn{
+         margin-left: 200px; 
+         margin-top: 10px;
+    }
+     .swt__wrapper{
+       margin-bottom: 10px;
+       margin-top: 20px;
+    }
+    #d_n{
+        margin-left: 245px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    /* nav end */
+    /* highlight start */
+    #highlight h1{
+        font-size: 40px;
+    }
+    /* highlight end */
+
+    /* footer start */
+    .footer-section .row .footer-logo a img{
+        height: 80px;
+        width: 100px;
+    }
+    
+    .footer-section .row .footer-logo  h1{
+        font-size: 40px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    .footer-section .row .footer-text p{
+        font-size: 20px;
+    }
+    .footer-section .row .footer-widget-heading h3{
+        text-align: center;
+    }
+        .footer-section .image{
+            display: none;
+          }
+    /* footer end */
+
+    /* device start */
+    #device{
+        display: block;
+        padding-top: 30%;
+    }
+    /* device end */
+
+    /* copyrt start */
+     #copy_rt .copyright-text p{
+        margin-top: 10px;
+    }
+    /* copyrt end */
+    
+     /* skill start */
+     #skill{
+        display: none;
+     }
+    /* skill end */
+
+        /* footer start */
+        .footer-section .image{
+            display: none;
+          }
+        /* footer end */
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+      /* nav start */
+   #nav .item li{
+    text-align: center;
+    margin-top: -13px;
+}
+#nav .item {
+    gap: 3rem !important;
+}
+#nav .btn{
+     margin-left: 300px !important; 
+     margin-top: 40px;
+}
+.swt__wrapper{
+   margin-left: 20px;
+   margin-top: 6px !important;
+   margin-top: 40px !important;
+}
+#d_n{
+    margin-left: 350px;
+    margin-top: 40px !important;
+    margin-bottom: 40px;
+}
+/* nav end */
+
+
+    /* hero start */
+    #hero .text h1{
+        font-size: 70px;
+        font-weight: 700;
+      }
+      
+      #hero .bt .butt_1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 15px 25px;
+      }
+      #hero .bt .butt_2{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 15px 25px;
+      }
+      /* hero end */
+      /* highlight start */
+      #highlight h1{
+        font-size: 50px;
+      }
+      /* highlight end */
+
+
+    /* footer start */
+
+    .footer-section .row .footer-logo a img{
+        height: 40px;
+        width: 60px;
+    }
+    
+    .footer-section .row .footer-logo  h1{
+        font-size: 20px;
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    .footer-section .row .footer-text p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .footer-section .row .footer-widget-heading h3{
+        font-size: 18px;
+        text-align: center;
+    }
+    .footer-section .row .item li{
+        font-size: 13px;
+        margin-left: 20px;
+    }
+    #copy_rt .copyright-text p{
+        margin-top: 15px;
+    }
+    /* footer end */
+    /* device start */
+    #device{
+        display: block;
+        padding-top: 65%;
+    }
+    /* device end */
+    
+     /* skill start */
+     #skill{
+        display: none;
+     }
+    /* skill end */
+
+        /* footer start */
+        .footer-section .image{
+            display: none;
+          }
+        /* footer end */
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+     /* nav start */
+    
+     #nav .item .nav-item a{
+        font-size: 14px;
+        margin-top: -45px;
+    }
+    #nav .item {
+        gap: 2rem !important;
+    }
+    #nav .logo h1{
+        margin-bottom: 0;
+    }
+    #nav .download{
+        width: 100px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    #nav button a{
+
+        font-size: 13px;
+        /* padding-bottom:5px; */
+    
+    }
+    .swt__wrapper{
+        margin: 0px 0px 0px -40px;
+    }
+    /* nav end */
+    /* hero start  */
+    #hero .row .text {
+        padding-top: 150px;
+    }
+    #hero .row .pic img{
+        padding-top: 130px;
+    }
+    #hero .text h1{
+        font-size: 70px;
+        font-weight: 700;
+      }
+      
+      #hero .bt .butt_1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 15px 25px;
+      }
+      #hero .bt .butt_2{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 15px 25px;
+      }
+    /* hero end */
+    /* highlight start */
+    #highlight h1{
+        font-size: 60px;
+    }
+    /* highlight end */
+    /* footer start */
+    .footer-section .row .footer-logo a img{
+        height: 60px;
+        width: 80px;
+    }
+    
+    .footer-section .row .footer-logo  h1{
+        font-size: 25px;
+    }
+    /* footer end */
+     /* device start */
+     #device{
+        display: none;
+    }
+    /* device end */
+    
+     /* skill start */
+     #skill{
+        display: block;
+     }
+     #skill .main{
+        gap: 30px;
+     }
+     #skill .title h1{
+        padding-top: 30px;
+     }
+     #skill{
+        height: 850px;
+     }
+    
+     #skill .row .item .myCard .frontSide,#skill .row .item .myCard .backSide{
+            width: 80%;   
+     }
+     #skill .row .item .myCard{
+        width: 160px;
+        height: 250px;
+     }
+     #skill .row .item .myCard .backSide{
+       width: 80%;
+     }
+     #skill .row .item .myCard .backSide h5{
+        font-size: 12px;
+       
+     }
+     #skill .row .item .myCard .backSide p{
+        font-size: 12px;
+       
+     }
+    /* skill end */
+    
+    
+}
+@media (min-width: 1200px) and (max-width: 1400.98px) {
+    /* nav start */
+    #nav .item .nav-item a{
+        font-size: 13px;
+    }
+    #nav .logo h1{
+        margin-bottom: 0;
+    }
+    /* nav end */
+    /* hero start  */
+    #hero .row .text {
+        padding-top: 120px;
+    }
+    #hero .row .pic img{
+        padding-top: 90px;
+    }
+    #hero .text h1{
+        font-size: 70px;
+        font-weight: 700;
+      }
+      
+      #hero .bt .butt_1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 15px 25px;
+      }
+      #hero .bt .butt_2{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 15px 25px;
+      }
+    /* hero end */
+    /* footer start */
+    .footer-section .row .footer-logo a img{
+        height: 80px;
+        width: 100px;
+    }
+    /* footer end */
+     /* device start */
+     #device{
+        display: none;
+    }
+    /* device end */
+    
+     /* skill start */
+     #skill{
+        display: block;
+     }
+     #skill .row .item .myCard{
+        width: 180px;
+     }
+     
+    /* skill end */
+    
+}
+
+@media (min-width: 1401px) and (max-width: 5000.98px) {
+     /* hero start  */
+     #hero .row .text {
+        padding-top: 120px;
+    }
+    #hero .row .pic img{
+        padding-top: 45px;
+    }
+    #hero .text h1{
+        font-size: 70px;
+        font-weight: 700;
+      }
+      
+      #hero .bt .butt_1{
+        font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 15px 25px;
+      }
+      #hero .bt .butt_2{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 15px 25px;
+      }
+    /* hero end */
+     /* device start */
+     #device{
+        display: none;
+    }
+    /* device end */
+    
+}
