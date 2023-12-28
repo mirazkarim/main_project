@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="css/assets/nav logo/logo.png">
+    <title>Daily Expenses</title>
+
+    <!-- ==================================> Google Fonts <================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- ==================================> aos Link <================================== -->
+    <!-- <link rel="stylesheet" href="css/aos/aos.css" /> -->
+    <!-- ==================================> Slick Slider Link <================================== -->
+    <link rel="stylesheet" href="css/slick-slider/slick.css">
+    <!-- ==================================> Bootstrap Link <================================== -->
+    <link rel="stylesheet" href="css/bs/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_css_bootstrap.min.css">
+    <!-- ==================================> Box Icons Link <================================== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ==================================> CSS Link <================================== -->
+    <!-- <link rel="stylesheet" href="css/day-css/style.css"> -->
+<link rel="stylesheet" href="css/night-css/style.css">
+    
+     <link rel="stylesheet" href="css/night-css/responsive.css">
+
+</head>
+<body>
+    
+    <!-- ==================================> নেভ বার অংশ শুরু<================================== -->
+    <header>
+    
+      <nav id="nav" class="fixed-top navbar navbar-expand-lg navbar-dark align-items-center">
+        <div class="container align-items-center">
+          <a class="logo navbar-brand d-flex align-items-center gap-1" href="night.html">
+            <img style="width: 60px;" src="css/assets/nav logo/logo1.png" alt="">
+            <h1 class="text-light fs-2 fs-sm-4 fw-bold">Daily <span class="text-light fw-bold">Expenses</span></h1>
+          </a>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="service collapse navbar-collapse" id="navbar-content">
+            <ul class="item navbar-nav m-auto  mb-lg-0 gap-5 abir">
+              <li class="nav-item">
+                <a class="nav-link active fw-medium" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-medium" aria-current="page" href="#skill">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-medium" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-medium" aria-current="page" href="#count">Feature
+                </a>
+              </li>
+              <li class="nav-item feed">
+                <a class="nav-link active fw-medium" aria-current="page" href="#contect">Feed-Back 
+                </a>
+              </li>
+  
+            </ul>
+
+            <button type="button" class="download btn btn-light me-5"><a href="https://play.google.com/store/apps/details?id=me.raaju.expensecalculatornewone&hl=en_US">Download App</a></button>
+  
+  <div id="btn-ln" class="button d-flex justify-content-center gap-1">
+              <div class="swt">
+                <label class="swt__wrapper">
+                  <input type="checkbox" />
+                  <span class="swt__slider"></span>
+                  <div></div>
+                </label>
+              </div>
+            </div>
+            <label id="d_n" class="switch">
+                  <!-- <span id="sun" class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="#fff"><circle r="5" cy="12" cx="12"></circle><path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path></g></svg></span> -->
+                  <span id="moon" class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></span>   
+                  <input type="checkbox" class="input">
+                  <span class="slider"></span>
+                </label>
+          </div>
+        </div>
+      </nav>
+      <!-- ==================================>নেভ বার অংশ শেষ  <================================== -->
+      
+      <!-- ==================================> ব্যানার অংশ শুরু  <================================== -->
+  
+      <div class="container py-5" id="hero">
+          <div class="row align-items-center mt-5 abir">
+            <div class="col-lg-7 col-12">
+              <div class="text ">
+                <h1 data-aos="fade-down" class="text-dark mb-4">Daily<span class="text-dark">Expenses</span></h1>
+              <h3 class="text-uppercase mb-4">Make your life easy & simple</h3>
+              <p class="mb-4">All students need to have a budget for personal expenses such as <br> personal items, laundry, going to the movies, or buying something. </p>
+              </div>
+
+               <div data-aos="fade-up" class="bt d-flex gap-5 flex-row flex-sm-row">
+                <a href="https://play.google.com/store/apps/details?id=me.raaju.expensecalculatornewone&hl=en_US"><button class="btn rounded-5 butt_1">
+                  <i class="text-light ri-android-fill"></i>
+                  <span class="text-light">Download App</span>
+                </button></a>
+                <a href="https://play.google.com/store/apps/details?id=me.raaju.expensecalculatornewone&hl=en_US"><button class="btn  rounded-5 butt_2">
+                  <i class="text-light ri-apple-fill"></i>
+                  <span class="text-light">Download App</span>
+                </button></a>
+               </div>
+            </div>
+            <div class="col-lg-4 mt-5 mt-md-4  pic">
+              <div class="image">
+                <img class="img-fluid" data-aos="slide-left" src="css/assets/Banner/banner-leftnn.png" alt="">
+              </div>
+            </div>
+          </div>
+          
+  
+      </div>
+    </header>
+    <!-- ==================================> ব্যানার অংশ শেষ  <================================== -->
+
+  <!-- ==================================> সেবাসমূহ অংশ শুরু <================================== -->
+  <section id="skill">
+    <div class="container">
+      <div class="title">
+        <h1>Our services</h1>
+        <p>Keep accounts in the Daily Expenses app very easily!</p>
+    </div>
+        <div class=" main row " data-aos="fade-up">
+  
+            <div class="col-lg-2">
+                <div class="item">
+                    <div class="myCard">
+                      <div class="innerCard">
+                          <div class="frontSide">
+                            <img src="css/assets/Banner/55n.png" alt="">
+                          </div>
+                          <div class="backSide">
+                            <h5 class="text-uppercase" >TODAY</h5>
+                            <p class="" >How much you earned and how much you spent today will all be in the Today section.</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="col-lg-2">
+                <div class="item item2">
+                    <div class="myCard">
+                      <div class="innerCard">
+                        <div class="frontSide">
+                          <img src="css/assets/Banner/58n.png" alt="">
+                        </div>
+                        <div class="backSide">
+                          <h5 class="text-uppercase" >Monthly</h5>
+                          <p class="" >From the beginning of the month to the end of the month, you can see the account of each separate month in the monthly chapter.</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="col-lg-2">
+                <div class="item">
+                    <div class="myCard">
+                      <div class="innerCard">
+                        <div class="frontSide">
+                          <img src="css/assets/Banner/57n.png" alt="">
+                        </div>
+                        <div class="backSide">
+                          <h5 class="text-uppercase" >Transaction</h5>
+                          <p class="" >Pie-to-pie calculation will be in front of the eyes. The account of any month from the beginning to the end will be in this chapter.</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="col-lg-2">
+                <div class="item item2">
+                    <div class="myCard">
+                      <div class="innerCard">
+                        <div class="frontSide">
+                          <img src="css/assets/Banner/60n.png" alt="">
+                        </div>
+                        <div class="backSide">
+                          <h5 class="text-uppercase" >Keep Note</h5>
+                          <p class="" >You will be reminded to pay the dues. All new and old dues can be noted in this section</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+  
+            <div class="col-lg-2">
+                <div class="item">
+                    <div class="myCard">
+                      <div class="innerCard">
+                        <div class="frontSide">
+                          <img src="css/assets/Banner/56n.png" alt="">
+                        </div>
+                        <div class="backSide">
+                          <h5 class="text-uppercase" >Backup</h5>
+                          <p class="" >Even if the app is deleted or the phone is lost, there is no problem. All accounts are secured within the Daily Expenses app.</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+  
+        </div>
+    </div>
+  </section>
+<!-- ==================================> সেবাসমূহ অংশ শেষ <================================== -->
+
+
+
+<!-- device start -->
+<section id="device">
+  <div class="container">
+    <div class="title pt-3 mb-5">
+      <h1>our services</h1>
+        <p>Keep accounts in the Daily Expenses app very easily!</p>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+      <div class="card" style="width: 18rem; border:none;">
+        <img class="card-img-top m-auto" style="width:150px; height: 300px;" src="css/assets/Banner/7nn.png" alt="Card image cap">
+        <div class="card-body text-center card_text">
+          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+          <h3 class="text-uppercase text-light" >Today</h3>
+                      <p class=" text-light" >How much you earned and how much you spent today will all be in the Today section.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+      <div class="card" style="width: 18rem; border:none;">
+        <img class="card-img-top m-auto" style="width:150px; height: 300px;" src="css/assets/Banner/9nn.png" alt="Card image cap">
+        <div class="card-body text-center">
+          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+          <h3 class="text-uppercase text-light" >Monthly</h3>
+                      <p class=" text-light" >From the beginning of the month to the end of the month, you can see the account of each separate month in the monthly chapter.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+      <div class="card" style="width: 18rem; border:none;">
+        <img class="card-img-top m-auto" style="width:150px; height: 300px;" src="css/assets/Banner/2nn.png" alt="Card image cap">
+        <div class="card-body text-center">
+          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+          <h3 class="text-uppercase text-light" >Transaction</h3>
+                      <p class=" text-light" >Pie-to-pie calculation will be in front of the eyes. The account of any month from the beginning to the end will be in this chapter.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div class="card" style="width: 18rem; border:none;">
+            <img class="card-img-top m-auto" style="width:150px; height: 300px;" src="css/assets/Banner/7nn.png" alt="Card image cap">
+            <div class="card-body text-center">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <h3 class="text-uppercase text-light" >KEEP NOTE</h3>
+                          <p class=" text-light" >You will be reminded to pay the dues. All new and old dues can be noted in this section.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div class="card" style="width: 18rem; border:none;">
+            <img class="card-img-top m-auto" style="width:150px; height: 300px;" src="css/assets/Banner/9nn.png" alt="Card image cap">
+            <div class="card-body text-center">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <h3 class="text-uppercase text-light" >Backup</h3>
+                          <p class=" text-light" >Even if the app is deleted or the phone is lost, there is no problem. All accounts are secured within the Daily Expenses app.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+          <div class="card" style="width: 18rem; border:none;">
+            <img class="card-img-top m-auto" style="width:150px; height: 300px;" src="css/assets/Banner/2nn.png" alt="Card image cap">
+            <div class="card-body text-center">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <h3 class="text-uppercase text-light" >Others</h3>
+                          <p class=" text-light" >Even if the app is deleted or the phone is lost, there is no problem. All accounts are secured within the Daily Expenses app.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- device end-->
+
+     <!-- ==================================> হাইলাইট অংশ শুরু <================================== -->
+     <section class="py-5 col-12 text-center" id="highlight">
+      <div class="container">
+        <h1 class="py-5 text-light " data-aos="fade-up">Best app to calculate expenses</h1>
+      </div>
+     </section>
+      <!-- ==================================> হাইলাইট অংশ শেষ <================================== -->
+
+
+<!--============================================= ফিচার অংশ শুরু =============================================-->
+
+<div id="feature" class="mb-5 pt-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <img class="img-fluid mx-auto d-block" data-aos="fade-down" src="css/assets/Banner/100n.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="hero_area w-100">
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+    </svg>
+</div>
+ </div>
+<!--============================================= ফিচার অংশ শেষ =============================================-->
+
+
+
+
+
+    <!-- ==================================> সম্পর্কিত অংশ শুরু  <================================== -->
+
+    <section id="about" class="container">
+      <div class="title text-center">
+        <h1 class="mb-5">About us</h1>
+      </div>
+        <div class="row abir ">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="slide-right">
+            <div  class="card border-0 text-center">
+              
+              <div class="image">
+                <img class="img-fluid" src="css/assets/About/1n.png" alt="About">
+              </div>
+              <div class="text card-body">
+                <h1 class="h3">New income</h1>
+                <p class="text-muted fs-6">First you need to mention the name of where your income came from in the new income field. Then you need to write down the amount of money coming from the income. After writing, if you click on new income, the new income will be deposited automatically.</p> 
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="slide-right">
+            <div class="card border-0 text-center">
+              <div class="image">
+                <img class="img-fluid" src="css/assets/About/3n.png" alt="About">
+              </div>
+              <div class="text card-body">
+                <h1 class="h3">All income</h1>
+                <p class="text-muted fs-6">Then all the types of income we were adding weekly, monthly and yearly will be sequentially arranged in a chapter called All Income. So that we can know our sources of income very easily.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="slide-left">
+            <div class="card border-0 text-center">
+              <div class="image">
+                <img class="img-fluid" src="css/assets/About/2n.png" alt="About">
+              </div>
+              <div class="text card-body">
+                <h1 class="h3">New Expenses</h1>
+                <p class="text-muted fs-6">You have to go to the new expense and mention the name from where you have incurred the expense. Then write the amount of money spent below. After writing, if you click on the new cost, the new cost will be accumulated automatically. Besides that, the balance of the new expenses will be deducted from the current balance.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="slide-left">
+            <div class="card border-0 text-center">
+              <div class="image">
+                <img class="img-fluid" src="css/assets/About/4n.png" alt="About">
+              </div>
+              <div class="text card-body">
+                <h1 class="h3">All Expenses</h1>
+                <p class="text-muted fs-6">Then the weekly, monthly and yearly expenses that we were adding all the expenses will be organized sequentially in a chapter called All Expenses. So that we can easily know the sources of our expenses. Apart from that, we can see the list of how much money we are spending in a month and we can get ideas from the expenses section on how to reduce the expenses in the next month.</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+    </section>
+    <!-- ==================================> সম্পর্কিত অংশ শেষ <================================== -->
+
+<!--=============== কাউন্টার অংশ শুরু=============================-->
+<section id="count" class="py-5 ">
+  <div class="main container">
+    <!-- <div class="image">
+          <img src="images/count/1.png" alt="">
+      </div> -->
+      <div class="down row text-center ">
+              <div class="item col-lg-3 col-md-4 col-sm-6 col-12">
+                  <i class="ri-shield-check-fill fs-1"></i>
+                  <h3 class="fs-4">All Download</h3>
+                  <h2 class="count fw-bolder">1200</h2>
+              </div>
+              <div class="item col-lg-3 col-md-4 col-sm-6 col-12">
+                  <i class="ri-heart-fill fs-1"></i>
+                  <h3 class="fs-4">Happy Client</h3>
+                  <h2 class="count fw-bolder">1080</h2>
+                </div>
+                <div class="item col-lg-3 col-md-4 col-sm-6 col-12">
+                  <i class="ri-user-6-fill fs-1"></i>
+                  <h3 class="fs-4">Active accounts</h3>
+                  <h2 class="count fw-bolder">1170</h2>
+              </div>
+              <div class="item col-lg-3 col-md-4 col-sm-6 col-12">
+                  <i class="ri-star-fill fs-1"></i>
+                  <h3 class="fs-4">Total App rate</h3>
+                  <h2 class="count fw-bolder">720</h2>
+              </div>
+            </div>
+          </div>
+</section>
+
+<!--=============== কাউন্টার অংশ শেষ=============================-->
+
+
+          <!--============================================= হিসাবের অবস্থা শুরু=============================================-->
+
+          
+          
+          <section id="ico" class="my-5">
+            <div class="title text-center pb-5">
+              <h1>Your account status</h1>
+              <p>Keep track of spending and deposits by keeping your own accounts</p>
+          </div>
+            <div class="container">
+                <img class="w-75 mx-auto d-block pb-5" data-aos="slide-up" src="css/assets/Banner/44n.png" alt="">
+            </div>
+          </section>
+          
+
+          <!--============================================= হিসাবের অবস্থা শেষ=============================================-->
+
+          <!--=============================================কন্টাক্ট  পার্ট অংশ শুরু =============================================-->
+          <section id="contect" class=" py-5" >
+            <div class="container">
+            <div class="title text-center">
+                <h1>Your feedBack</h1>
+                <p>Write your nice comment below.</p>
+            </div>
+        
+            
+                <div class="main row" data-aos="fade-down">
+                    <div class="col-md-6 col-12 text-center">
+                        <div class="image">
+                            <img class="img-fluid" src="css/assets/Banner/Untitled-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 text-center">
+                        <div class="form mt-5 ">
+                            <input class="mb-3" id="in1" type="text" placeholder="Your Name"> <br>
+                            <input class="mb-3" id="in2" type="text" placeholder="Your Number"> <br>
+                            <textarea class="mb-3" id="t1" placeholder="Your Feed-Back"></textarea> <br>
+                            <a class="btn btn-light" href="#" style="font-family: 'Oswald', sans-serif;">Submit</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </section>
+      <!--=============================================কন্টাক্ট  পার্ট অংশ শেষ=============================================-->
+
+
+     <!-- ==================================>ফুটার অংশ শুরু  <================================== -->
+     <footer class="footer-section py-5 mb-0">
+      <div class="container">
+              <div class="row justify-content-between ">
+                  <div class="col-lg-4 col-md-6 col-12">
+                      <div class="footer-widget">
+                          <div class="footer-logo d-flex align-items-center ">
+                                <a class="d-flex align-items-center" href="night.html"><img class="w-25 img-fluid" src="css/assets/nav logo/logo1.png" alt="logo">
+                              <h1 class="text-light h3">Daily <span class="dark">Expenses</span></h1></a>
+                          </div>
+                          <div class="footer-text">
+                              <p>Daily Expenses App developed by Mizanur Rahman Raju Bhai is a digital accounting platform for small and medium businesses in Bangladesh and for everyone. Daily Expenses is the best app for traders and every people in Bangladesh to keep track of daily transactions. Astha Daily Expenses is trusted by more than 5 lakh traders across the country.</p>
+                          </div>
+
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="footer-widget">
+                <div class="footer-widget-heading">
+                    <h3>Important links</h3>
+                </div>
+                <ul class="list-unstyled item ">
+                  <div class="d-flex justify-content-between mb-4">
+                      <li><a class="text-dark" href="#">Home</a></li>
+                      <li><a class="text-dark" href="#">About</a></li>
+                  </div>
+
+                  <div class="d-flex justify-content-between mb-4">
+                    <li><a class=" text-dark" href="#">Service</a></li>
+                    <li><a class=" text-dark" href="#">Portfolio</a></li>
+                  </div>
+
+                  <div class="d-flex justify-content-between mb-4">
+                    <li><a class=" text-dark" href="#">Content</a></li>
+                    <li><a class=" text-dark" href="#">About Us</a></li>
+                  </div>
+
+                  <div class="d-flex justify-content-between mb-4">
+                    <li><a class=" text-dark" href="#">Help</a></li>
+                    <li><a class=" text-dark" href="#">Expert Team</a></li>
+                  </div>
+
+                  <div class="d-flex justify-content-between mb-4">
+                    <li><a class=" text-dark" href="#">Contact Us</a></li>
+                    <li><a class=" text-dark" href="#">Latest News</a></li>
+                  </div> 
+
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="image  text-center">
+                <img class="" src="css/assets/Banner/2nn.png" alt="">
+                <div class="panel">
+              <div class="col">
+                <div class="pulse-base"></div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- copy right start -->
+
+    <section  id="copy_rt">
+      <div class="copyright-area">
+        <div class="col-xl-6 col-lg-6 text-center m-auto">
+          <div class=" py-4 copyright-text">
+            <p class=" mb-0 text-light">Copyright &copy; 2023, All Right Reserved <a class="text-light" href="#">"UniqueCODERS"</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- copy right start -->
+    <!-- ==================================> ফুটার অংশ শেষ<=================================== -->
+
+
+    <!-- ==================================> JQuery Link <================================== -->
+    <script src="js/jquary/code.jquery.com_jquery-1.12.4.min.js"></script>
+    <!-- ==================================> JQuery Link <================================== -->
+
+    <!-- ==================================> aos Link <================================== -->
+    <!-- <script src="js/aos/aos.js"></script> -->
+    <!-- ==================================> aos Link <================================== -->
+
+
+    <!-- ==================================> Slick Slider Link <================================== -->
+    <script src="js/slick-slider/slick.min.js"></script>
+    <!-- ==================================> Slick Slider Link <================================== -->
+
+
+    <!-- ==================================> Bootstrap Link <================================== -->
+    <script src="js/bs/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+    <!-- ==================================> Bootstrap Link <================================== -->
+
+    <!-- ==================================> main js Link <================================== -->
+    <script src="js/night-js/main.js"></script>
+     <!-- ==================================> main js Link <================================== -->
+</body>
+</html>
